@@ -285,10 +285,11 @@ section,
   display: grid;
   gap: 1em;
   grid-template-areas:
-    "title image"
-    "meta image"
-    "body image"
-    "button image";
+    "image"
+    "title"
+    "meta"
+    "body"
+    "button";
 }
 
 .snippet__image {
