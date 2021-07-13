@@ -5,11 +5,14 @@ layout: "base.njk"
 <article class="main-article">
   <div class="container container--narrow flow">
     <h1 class="article-title">{{ title }}</h1>
+    <h2></h2>
     <figure class="main-article__figure">
       <img src="{{ image }}" alt="{{ imageAlt }}" />
       <figcaption>{{ imageAlt }}</figcaption>
     </figure>
 
     {{ content | safe }}
+
+    <a href="/blog" class="btn btn--primary">Back to Recent Articles</a>
   </div>
 </article>
