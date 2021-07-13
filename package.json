@@ -9,7 +9,7 @@
     "start": "npm run watch:eleventy & npm run watch:sass",
     "build:eleventy": "npx @11ty/eleventy",
     "build:sass": "npx sass src/sass:public/css",
-    "build": "npm run build:eleventy & npm run build:sass"
+    "build": "npm run build:eleventy"
   },
   "author": "5t3ph",
   "license": "ISC",
