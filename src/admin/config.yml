@@ -14,11 +14,11 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Title", name: "title", widgit: "string" }
-      - { label: "Description", name: "description", widgit: "string" }
-      - { label: "Author", name: "author", widgit: "string" }
-      - { label: "Date", name: "date", widgit: "datetime" }
-      - { label: "Tags", name: "tags", widgit: "list", default: ["post"] }
-      - { label: "Featured Image", name: "image", widgit: "string" }
-      - { label: "Image Caption", name: "imageAlt", widgit: "string" }
-      - { label: "Body", name: "body", widgit: "markdown" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
+      - { label: "Featured Image", name: "image", widget: "image" }
+      - { label: "Image caption", name: "imageAlt", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
